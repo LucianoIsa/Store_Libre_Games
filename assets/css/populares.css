@@ -1,5 +1,5 @@
 .populares{
-    padding: 3rem 0;
+    padding: 3rem 2rem;
 }
 .populares__card{
     background: violet;
@@ -68,4 +68,9 @@
 }
 .populares__boton{
     background: transparent;
+    border:none;
+    color: #333333;
+}
+.populares__card:last-child{
+    margin-right: 0;
 }
