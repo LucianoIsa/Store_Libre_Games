@@ -13,7 +13,6 @@
 
 .encabezado {
     align-items: center;
-
     display: flex;
     grid-area:encabezado;
     padding: 0 2rem;
@@ -38,5 +37,4 @@
     grid-area: footer;
     padding: 1rem;
     text-align: center;
-
 }
