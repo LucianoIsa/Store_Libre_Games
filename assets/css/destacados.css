@@ -4,6 +4,7 @@
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 33.33% 33.33% 33.33%;
     height: calc(110vh - 50px);
+    gap: 0.3rem;
 }
 .destaques__principal{
     background: url("../img/fortnite.jpg");
@@ -70,4 +71,9 @@
     width: 100%;
     text-align: center;
     padding: 0.6rem;
+}
+.box{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
